@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="REST API Intervie">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+    <coverage processUncoveredFiles="true">
+        <include>
+            <directory>./Controllers</directory>
+            <directory>./Models</directory>
+            <directory>./Utilities</directory>
+        </include>
+    </coverage>
+</phpunit>

@@ -1,5 +1,17 @@
 # REST API: Interview 1
 
+## Get Started
+
+To start the project install dependencies:
+
+    composer require --dev phpunit/phpunit ^9
+
+Then start the dev server:
+    
+    php -S localhost:8000 -t 'public'
+
+---
+
 Write an HTTP GET method to retrieve information from an articles database. The query response is paginated and can be further accessed by appending to the query string &page=num where num is the page number.
 
 Given a string of author, your solution must perform the following tasks:
